@@ -36,3 +36,89 @@
     transform: rotate(360deg);
   }
 }
+
+/* App.css */
+
+body, html {
+  margin: 0;
+  padding: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background: url('../public/CarbonImage.jpg');
+  background-size: cover;
+  color: #fff;
+}
+
+.app {
+  text-align: center;
+  padding: 20px;
+  background-color: rgba(0, 0, 0, 0.5);
+  min-height: 100vh;
+}
+
+.navbar {
+  background-color: rgba(0, 128, 0, 0.85);
+  padding: 15px 30px;
+  font-size: 24px;
+  font-weight: bold;
+  color: #fff;
+  text-align: left;
+}
+
+.input-section {
+  margin: 20px;
+}
+
+.input-section input {
+  padding: 10px;
+  width: 300px;
+  border: none;
+  border-radius: 6px;
+  margin-right: 10px;
+}
+
+.input-section button {
+  padding: 10px 15px;
+  background: #4CAF50;
+  border: none;
+  color: white;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.dropdowns {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+button {
+  padding: 10px 15px;
+  background: #2196F3;
+  border: none;
+  color: white;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.map {
+  height: 500px;
+  width: 90%;
+  margin: auto;
+  border: 2px solid #fff;
+  border-radius: 8px;
+}
+
+.results {
+  margin-top: 20px;
+  font-size: 20px;
+  color: #e6ffe6;
+}
+
+.navbar {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1000; /* ensures it stays above other elements */
+}
+
