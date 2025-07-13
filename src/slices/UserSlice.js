@@ -34,6 +34,9 @@ const UserSlice = createSlice({
         },
         clearAlert: (state) => {
             state.alertmsg = null;
+        },
+        changeLogin: (state) =>{
+            state.isLoggedIn = false;
         }
     }
 })
@@ -43,7 +46,8 @@ export const {
     registerFailure,
     loginSuccess,
     loginFailure,
-    clearAlert
+    clearAlert,
+    changeLogin
 } = UserSlice.actions;
 
 export default UserSlice.reducer;

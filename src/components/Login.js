@@ -26,7 +26,7 @@ function Login(props) {
 
     useEffect(() => {
     if (isLoggedIn) {
-      navigate("/dashboard");
+      navigate("/login/about");
     }
   }, [isLoggedIn, navigate]);
 

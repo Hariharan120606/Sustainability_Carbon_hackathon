@@ -1,7 +1,7 @@
 import pkg from "pg"
 import dotenv from "dotenv"
 const {Pool} = pkg;
-dotenv.config({ path: "../src/.env" });
+dotenv.config({ path: "../.env" });
 
 console.log(process.env.DB_HOST);
 

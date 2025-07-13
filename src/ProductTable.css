@@ -1,0 +1,12 @@
+/* ProductTable.css */
+
+.table-bordered th,
+.table-bordered td {
+  border-width: 2px !important;     /* Make borders bold */
+  border-color: #ffffff !important; /* Bright white borders on dark table */
+}
+
+.table-dark th,
+.table-dark td {
+  color: #ffffff;
+}

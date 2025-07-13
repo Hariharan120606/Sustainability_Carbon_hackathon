@@ -4,7 +4,7 @@ import WarehouseSearch from './WarehouseSearch.js';
 import WarehouseForm from './WarehouseForm.js';
 import WarehouseGrid from './WarehouseGrid.js';
 import WarehouseHeader from './WarehouseHeader.js';
-import Navbar from '../Navbar.js';
+import Navbar from '../../components/Navbar.js';
 import {
   fetchWarehouses,
   addWarehouse,

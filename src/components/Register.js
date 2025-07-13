@@ -3,10 +3,21 @@ import Navbar from "./Navbar";
 import { useDispatch } from "react-redux";
 import { register } from "../features/userActions";
 import { useSelector } from 'react-redux';
+import { useNavigate } from "react-router-dom";
+import { useEffect } from "react";
+
 
 export default function Register(props) {
   const dispatch = useDispatch();
+  const navigate = useNavigate();
   const msg = useSelector((state) => state.user.alertmsg);
+  const isLoggedIn = useSelector((state) => state.user.isLoggedIn)
+
+  useEffect(() => {
+  if (isLoggedIn) {
+    navigate("/login"); // or any other page
+  }
+}, [isLoggedIn, navigate]);
 
   const [ credentials, setCredentials ] = useState({
     firstName: "",
@@ -15,6 +26,7 @@ export default function Register(props) {
     password: "",
     email: "",
     role: props.role
+    
   })
 
   const handleChange = (e)=>{
@@ -30,6 +42,8 @@ export default function Register(props) {
     password: "",
     email: "",
     role: props.role})
+
+
   }
 
   return (
