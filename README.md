@@ -29,7 +29,7 @@ A full‑stack application to monitor, visualize, and optimize carbon emissions 
 
 ## 🎬 Motivation
 
-*The logistics industry significantly contributes to global carbon emissions, particularly through inefficient transportation routes and warehouse operations. As sustainability becomes a core priority for major enterprises, there's a pressing need for tools that help companies:
+The logistics industry significantly contributes to global carbon emissions, particularly through inefficient transportation routes and warehouse operations. As sustainability becomes a core priority for major enterprises, there's a pressing need for tools that help companies:
 
 Quantify their carbon footprint
 
@@ -45,7 +45,7 @@ Simulate and apply eco-friendly route optimizations
 
 Make data-driven decisions that reduce environmental impact
 
-By combining modern web technologies, geospatial data and optimization algorithms, we provide an accessible solution for sustainable supply chain management.*
+By combining modern web technologies, geospatial data and optimization algorithms, we provide an accessible solution for sustainable supply chain management.
 
 ---
 
