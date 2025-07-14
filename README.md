@@ -1,4 +1,4 @@
-# Sustainability Carbon Hackathon
+# CarbonSmart Logistics
 
 A full‑stack application to monitor, visualize, and optimize carbon emissions across warehouse logistics. Built as part of the Walmart‑sponsored hackathon, this project features:
 
