@@ -2,6 +2,74 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+# Sustainability Carbon Hackathon
+
+A full‑stack application made to monitor, visualize, and optimize carbon emissions across warehouse logistics. Built as part of the Walmart‑sponsored hackathon, this project features:
+
+- **User Authentication** (JWT + Express)
+- **Warehouse & Product Management** (PostgreSQL)
+- **Route Optimization** (Python script)
+- **Interactive Maps & Charts** (React + Leaflet + Google Maps + Chart.js)
+- **Real‑time Carbon Emission Dashboard** (Redux + Chart.js)
+
+---
+
+## 🚀 Table of Contents
+
+1. [Demo](#-demo)  
+2. [Tech Stack](#-tech-stack)  
+3. [Features](#-features)  
+4. [Architecture](#-architecture)  
+5. [Getting Started](#-getting-started)  
+   - [Prerequisites](#prerequisites)  
+   - [Environment Variables](#environment-variables)  
+   - [Installation & Running](#installation--running)  
+6. [Project Structure](#-project-structure)  
+7. [Available Scripts](#-available-scripts)  
+8. [Contributing](#-contributing)  
+9. [License](#-license)  
+
+---
+
+## 🎬 Demo
+
+![Dashboard Screenshot](./public/screenshot-carbon-dashboard.png)  
+*(Replace with your own screenshot)*
+
+---
+
+## 🛠 Tech Stack
+
+- **Frontend**: React, Redux Toolkit, React Router, Tailwind CSS, Chart.js, Recharts, React‑Leaflet, @react-google-maps/api  
+- **Backend**: Node.js, Express, PostgreSQL (`pg`), Mongoose (for any NoSQL extensions), JWT, Bcrypt  
+- **Route Optimization**: Python (optimizer.py using Dijkstra’s or custom logic)  
+- **Utilities**: Axios, CORS, Dotenv, Express‑Validator  
+
+---
+
+## ⭐ Features
+
+- **User Management**  
+  - Register, Login, Profile & Password Update (JWT protected)  
+- **Warehouse & Product APIs**  
+  - CRUD operations for warehouses & products via RESTful endpoints  
+- **Route Optimization**  
+  - Send `start` & `end` coordinates → returns optimized path & estimated carbon savings  
+- **Interactive Map**  
+  - Visualize warehouses & optimized route on Leaflet + Google Maps overlay  
+- **Carbon Emission Dashboard**  
+  - Total & average emissions, facility‑level metrics, interactive bar charts  
+- **Statistics & Reporting**  
+  - Recharts for time‑series and distribution charts  
+- **Responsive UI**  
+  - Mobile & desktop friendly layouts  
+
+---
+
+## 🏗 Architecture
+
+
+
 ## Available Scripts
 
 In the project directory, you can run:
